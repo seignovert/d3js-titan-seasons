@@ -1,27 +1,97 @@
 Titan orbit
 ===========
+- Titan day = 15.945 Earth day
 
-- Orbitale period: 15.945 days
-- Periapsis: 	1186680 km
-- Apoapsis: 	1257060 km
-- Semi-major axis: 1221870 km
-- Eccentricity 	0.0288
+- Date coverage: 1980-01-02 | 2032-12-31
+- Orbit        : 10751 days = 29 years 5 months 7 days (Earth) | 674 Titan days
 
-- Vernal equinox:   1980/02/28 - 2009/08/02 (Ls =   0º)
-- Summer solstice:  1987/12/05 - 2017/05/19 (Ls =  90º)
-- Autumnal equinox: 1995/09/12 - 2025/05/?? (Ls = 180º)
-- Winter solstice:  2002/10/27 - 2032/04/?? (Ls = 270º)
-- Obliquity: 26.43º
+- Equinox   (V): 1980-02-22 | 2009-07-30
+- Solstice  (S): 1987-11-25 | 2017-05-14
+- Equinox   (A): 1995-11-07 | 2025-04-24
+- Solstice  (W): 2002-10-23 | 2032-03-26
 
-- Aphelion:    9.03 A.U. 2032/12/?? - 2002/10/??
-- Perihelion: 10.04 A.U. 2018/03/?? - 1988/09/??
+- Obliquity    : 26.73 deg
+- Perihelion   : 1988-08-31 | 2018-04-07 | 10.07 UA
+- Aphelion     : 2003-07-21 | 2032-11-21 | 9.01 UA
 
-- Winter: 156 days
-- Spring: 178 days
-- Summer: 182 days
-- Autumn: 159 days
+- North Spring : 177 days (Titan) | 2833 days (Earth) | Ls =   0 | R = 9.44 UA
+- North Summer : 182 days (Titan) | 2904 days (Earth) | Ls =  90 | R = 10.03 UA
+- North Autumn : 159 days (Titan) | 2542 days (Earth) | Ls = 180 | R = 9.59 UA
+- North Winter : 155 days (Titan) | 2472 days (Earth) | Ls = 270 | R = 9.03 UA
 
-Source: Tokano et al. 1999 (doi: 10.1016/S0032-0633(99)00011-2)
+Time vs. Solar Longitude
+--------------------------
+$$360 \cdot \frac{\text{Date} - \text{Eq}^V}{\text{Orbit}} = L_s + A * \sin\left(2\pi\cdot \frac{L_s - C}{360} \right) + B$$
+with: A = 6.17 | B = 6.06 | C = 100.94 (Fit).
+
+We get a transcendental equation which is solved with the Newton method, ie. the series:
+$$
+L_s^0 = 360 \cdot \frac{\text{Date} - \text{Eq}^V}{\text{Orbit}} - B\\
+L_s^{n+1} = L_s^n - \frac{
+L_s^n - L_s^0 + A\cdot\sin\left(2\pi\cdot \frac{L_s^n - C}{360} \right)
+}{
+1 + A\cdot\frac{2\pi}{360}\cos\left(2\pi\cdot \frac{L_s^n - C}{360} \right)
+}$$
+converge to the value of $L_s$.
+
+Solar longitude on an ellipse
+-------------------------------
+Ellipse canonical cartesian equation:
+$$ \left( \frac{x}{a} \right)^2 + \left( \frac{y}{b} \right)^2 = 1$$
+
+Rotation of $\theta$:
+$$ \left(\begin{array}{r}
+X \\
+Y \\
+\end{array} \right) = \left(\begin{array}{rr}
+ \cos\theta & \sin\theta \\
+-\sin\theta & \cos\theta \\
+\end{array} \right) \cdot \left(\begin{array}{r}
+x \\
+y \\
+\end{array} \right)$$
+
+Rotated ellipse:
+$$ \left( \frac{X \cos\theta + Y \sin\theta}{a} \right)^2 + \left( \frac{-X \sin\theta + Y \sin\theta}{b} \right)^2 = 1$$
+
+Primary focus location (Sun location):
+$$ \left(\begin{array}{r}
+X_f \\
+Y_f \\
+\end{array} \right) = \left(\begin{array}{rr}
+ \cos\theta & \sin\theta \\
+-\sin\theta & \cos\theta \\
+\end{array} \right) \cdot \left(\begin{array}{r}
+c \\
+0 \\
+\end{array} \right)$$
+
+The line passing through the primary focus with an angle $L_s$ (clock-wise with respect to the vernal equinox):
+$$ \frac{X - X_f}{Y - Y_f} = \tan L_s \Leftrightarrow Y = C \cdot X + D$$
+with:
+$$ C = \frac{ \cos L_s }{ \sin L_s } \text{ and } D = Y_f - X_f \cdot C$$
+
+Re-injected into the ellipse equation, we get:
+$$\alpha \cdot X^2 + \beta \cdot X + \gamma = 0 $$
+with:
+$$ \alpha = \left(\frac{C \sin\theta + \cos\theta}{a}\right)^2 +
+\left(\frac{C \cos\theta - \sin\theta}{b}\right)^2 \\
+\beta = 2 D \cdot
+\left(
+\cos\theta \cdot \sin\theta \cdot \left[ \frac{1}{a^2} - \frac{1}{b^2} \right]
++ C \left[ \frac{\sin^2\theta}{a^2} + \frac{\cos^2\theta}{b^2} \right]
+\right) \\
+\gamma = D^2 \cdot \left( \frac{\sin^2\theta}{a^2} + \frac{\cos^2\theta}{b^2} \right) - 1
+$$
+
+Solving the second order polynomial equation will get $X$:
+$$
+X = \frac{ -\beta \pm \sqrt{\Delta} }{ 2\alpha} \text{ with }
+\Delta = \beta^2 - 4\cdot \alpha \cdot \gamma
+$$
+which allow us to get $Y$ from the previous equation.
+
+(NB: the sign $\pm$ is determined by the value of $L_s$)
 
 Flybys
 =======
@@ -29,8 +99,8 @@ Flybys
 - Voyager 1 : 1980/11/12
 - Voyager 2 : 1981/08/25
 
-Cassini info
-=============
+Cassini
+========
 - Cassini launch: 1997/10/15
 - Saturn orbital insertion: 2004/07/01
 - Huygens landing: 2005/01/14
