@@ -226,8 +226,8 @@ class TITAN:
 
         Parameters
         -----------
-        date : str,numpy.datetime64
-            Input date
+        date : str, numpy.datetime64
+            Input date (YYYY-MM-DD or YYYY/MM/DD)
         eps : float, optional
             Precision of the convergence
         imax : int, optional
@@ -249,7 +249,7 @@ class TITAN:
         Ls : real
             Solar latitude corresponding to the input date
         '''
-        if type(date) == str: date = np.datetime64(date,'D')
+        if type(date) == str: date = np.datetime64(date.replace('/','-'),'D')
         Ls_0 = ( (360.*(date - self.eq_v[0]).astype(int))/self.orbit.astype(float) - self.B ) % 360
         Ls   = Ls_0
         for ii in range(imax):
@@ -294,7 +294,7 @@ if __name__ == '__main__':
             elif arg.lower() in ['naif','spice','load','reload','read','import']:
                 titan.reload()
             elif len(arg) == 10 :
-                print 'Ls: %.2f' % titan.Ls( arg.replace('/','-') )
+                print 'Ls: %.2f' % titan.Ls( arg )
             else:
                 try:
                     if '+' in arg:
