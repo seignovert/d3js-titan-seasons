@@ -1,23 +1,42 @@
 Titan orbit
 ===========
-- Titan day = 15.945 Earth day
 
-- Date coverage: 1980-01-02 | 2032-12-31
-- Orbit        : 10751 days = 29 years 5 months 7 days (Earth) | 674 Titan days
+Infos
+-----
+```bash
+python Titan_orbit.py
+>>> Date coverage: 1980-01-02 | 2032-12-31
+>>> Orbit       : 10751 days (Earth) = 29 years 5 months 7 days | 674 days (Titan)
+>>> Equinox  (V): 1980-02-22 | 2009-07-30
+>>> Solstice (S): 1987-11-25 | 2017-05-14
+>>> Equinox  (A): 1995-11-07 | 2025-04-24
+>>> Solstice (W): 2002-10-23 | 2032-03-26
+>>> Obliquity   : 26.73 deg
+>>> N Spring    : 2833 days (Earth) | 177 days (Titan) | Ls =   0 | R = 9.44 UA
+>>> N Summer    : 2904 days (Earth) | 182 days (Titan) | Ls =  90 | R = 10.03 UA
+>>> N Autumn    : 2542 days (Earth) | 159 days (Titan) | Ls = 180 | R = 9.59 UA
+>>> N Winter    : 2472 days (Earth) | 155 days (Titan) | Ls = 270 | R = 9.03 UA
+>>> Perihelion  : 1988-08-31 | 2018-04-07 | 10.07 UA
+>>> Aphelion    : 2003-07-21 | 2032-11-21 | 9.01 UA
+>>> 360*(Date - Eq_V)/orbit = Ls + A * sin[2.PI/360 * (Ls - C)] + B
+>>> with: A = 6.17 | B = 6.05 | C = 101.04
+```
 
-- Equinox   (V): 1980-02-22 | 2009-07-30
-- Solstice  (S): 1987-11-25 | 2017-05-14
-- Equinox   (A): 1995-11-07 | 2025-04-24
-- Solstice  (W): 2002-10-23 | 2032-03-26
+_Note:_ 1 Titan day = 15.945 Earth day
 
-- Obliquity    : 26.73 deg
-- Perihelion   : 1988-08-31 | 2018-04-07 | 10.07 UA
-- Aphelion     : 2003-07-21 | 2032-11-21 | 9.01 UA
+Usage
+-----
+```bash
+python Titan_orbit.py 30
+>>> Date: 1982-08-12
 
-- North Spring : 177 days (Titan) | 2833 days (Earth) | Ls =   0 | R = 9.44 UA
-- North Summer : 182 days (Titan) | 2904 days (Earth) | Ls =  90 | R = 10.03 UA
-- North Autumn : 159 days (Titan) | 2542 days (Earth) | Ls = 180 | R = 9.59 UA
-- North Winter : 155 days (Titan) | 2472 days (Earth) | Ls = 270 | R = 9.03 UA
+python Titan_orbit.py 30+1
+>>>Date: 2012-01-18
+
+python Titan_orbit.py 2012-01-18
+>>> Ls: 29.99
+```
+
 
 Time vs. Solar Longitude
 --------------------------

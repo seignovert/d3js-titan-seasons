@@ -221,7 +221,7 @@ class TITAN:
         print 'with: A = %.2f | B = %.2f | C = %.2f' % (self.A,self.B,self.C)
         return
 
-    def Ls(self,date,eps=1.e-7,imax=25):
+    def date2ls(self,date,eps=1.e-7,imax=25):
         '''Calculate the solar longitude corresponding to a date.
 
         Parameters
@@ -256,13 +256,13 @@ class TITAN:
             dLs = - (Ls - Ls_0 + self.A * np.sin(2*np.pi*(Ls-self.C)/360.) )         \
                    /( 1 + self.A *2*np.pi/360.* np.sin(2*np.pi*(Ls-self.C)/360.) )
             Ls = Ls + dLs
-            if np.abs(dLs) < eps:
+            if np.abs(dLs.all()) < eps:
                 break
         if ii >= imax:
             raise ValueError('Max number of iteration reach without getting convergence.')
         return Ls % 360
 
-    def Date(self,Ls,Ty=0):
+    def ls2date(self,Ls,Ty=0):
         '''Calculate the date corresponding to a solar longitude.
 
         Parameters
@@ -294,7 +294,7 @@ if __name__ == '__main__':
             elif arg.lower() in ['naif','spice','load','reload','read','import']:
                 titan.reload()
             elif len(arg) == 10 :
-                print 'Ls: %.2f' % titan.Ls( arg )
+                print 'Ls: %.2f' % titan.date2ls( arg )
             else:
                 try:
                     if '+' in arg:
@@ -304,7 +304,7 @@ if __name__ == '__main__':
                     else:
                         Ls = float(arg)
                         Ty = 0
-                    print 'Date: %s' % titan.Date(Ls,Ty=Ty)
+                    print 'Date: %s' % titan.ls2date(Ls,Ty=Ty)
                 except ValueError:
                     pass
     else:
