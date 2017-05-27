@@ -1,6 +1,8 @@
 Titan orbit
 ===========
 
+![Titan orbit](Titan_seasons.png)
+
 Infos
 -----
 ```bash
@@ -16,8 +18,8 @@ python Titan_orbit.py
 >>> N Summer    : 2904 days (Earth) | 182 days (Titan) | Ls =  90 | R = 10.03 UA
 >>> N Autumn    : 2542 days (Earth) | 159 days (Titan) | Ls = 180 | R = 9.59 UA
 >>> N Winter    : 2472 days (Earth) | 155 days (Titan) | Ls = 270 | R = 9.03 UA
->>> Perihelion  : 1988-08-31 | 2018-04-07 | 10.07 UA
->>> Aphelion    : 2003-07-21 | 2032-11-21 | 9.01 UA
+>>> Perihelion  : 2003-07-21 | 2032-11-21 | 9.01 UA  | Ls = 280
+>>> Aphelion    : 1988-08-31 | 2018-04-07 | 10.07 UA | Ls = 98
 >>> 360*(Date - Eq_V)/orbit = Ls + A * sin[2.PI/360 * (Ls - C)] + B
 >>> with: A = 6.17 | B = 6.05 | C = 101.04
 ```
@@ -114,16 +116,16 @@ which allow us to get $Y$ from the previous equation.
 
 Flybys
 =======
-- Pioneer 11: 1979/09/11
-- Voyager 1 : 1980/11/12
-- Voyager 2 : 1981/08/25
+- Pioneer 11: 1979/09/11 (Ls = 354º)
+- Voyager 1 : 1980/11/12 (Ls =   8º)
+- Voyager 2 : 1981/08/25 (Ls =  18º)
 
 Cassini
 ========
-- Cassini launch: 1997/10/15
-- Saturn orbital insertion: 2004/07/01
-- Huygens landing: 2005/01/14
-- Equinox mission: 2008/06/30
-- Solstice mission: 2010/02/03
-- Grand Finale 2017/04/23
-- End of the mission: 2017/09/15
+- Cassini launch:           1997/10/15 (Ls = 203º)
+- Saturn orbital insertion: 2004/07/01 (Ls = 293º)
+- Huygens landing:          2005/01/14 (Ls = 300º)
+- Equinox mission:          2008/06/30 (Ls = 346º)
+- Solstice mission:         2010/02/03 (Ls =   6º)
+- Grand Finale:             2017/04/23 (Ls =  89º)
+- End of the mission:       2017/09/15 (Ls =  94º)

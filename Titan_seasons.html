@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+<style>
+svg { border: 1px solid black; }
+</style>
+</head><body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.3.9/d3.min.js"></script>
+<script type="text/javascript" src="assets/Seasons.js"></script>
+<script type="text/javascript">
+
+var years = [
+  { 'date': 2003, 'Ls': 272.62 },
+  { 'date': 2004, 'Ls': 286.31 },
+  { 'date': 2005, 'Ls': 300.00 },
+  { 'date': 2006, 'Ls': 313.53 },
+  { 'date': 2007, 'Ls': 326.87 },
+  { 'date': 2008, 'Ls': 339.94 },
+  { 'date': 2009, 'Ls': 352.78 },
+  { 'date': 2010, 'Ls':   5.28 },
+  { 'date': 2011, 'Ls':  17.49 },
+  { 'date': 2012, 'Ls':  29.44 },
+  { 'date': 2013, 'Ls':  41.17 },
+  { 'date': 2014, 'Ls':  52.67 },
+  { 'date': 2015, 'Ls':  64.00 },
+  { 'date': 2016, 'Ls':  75.20 },
+  { 'date': 2017, 'Ls':  86.33 },
+  { 'date': 2018, 'Ls':  97.38 },
+  { 'date': 1989, 'Ls': 102.19 },
+  { 'date': 1990, 'Ls': 113.23 },
+]
+var flybys = [
+  {'name': 'Pioneer 11' , 'date': '1979/09/11', 'Ls': 354, 'color': 'green' },
+  {'name': 'Voyager 1'  , 'date': '1980/11/12', 'Ls':   8, 'color': 'red'   },
+  {'name': 'Voyager 2'  , 'date': '1981/08/25', 'Ls':  18, 'color': 'red'   },
+  {'name': 'Huygens'    , 'date': '2005/01/14', 'Ls': 300, 'color': 'orange'},
+  {'name': '28 Sgr Occ.', 'date': '1989/07/03', 'Ls': 107, 'color': 'purple'},
+  {'name': 'TYC ** Occ.', 'date': '2003/11/13', 'Ls': 284, 'color': 'purple'},
+];
+var cassini = [
+  // { 'name': 'Cassini launch'          , 'date': '1997/10/15', 'Ls': 203, 'color': 'blue' },
+  { 'name': 'Saturn orbital insertion', 'date': '2004/07/01', 'Ls': 293, 'color': 'blue' },
+  { 'name': 'Huygens landing'         , 'date': '2005/01/14', 'Ls': 300, 'color': 'blue' },
+  { 'name': 'Equinox mission'         , 'date': '2008/06/30', 'Ls': 346, 'color': 'blue' },
+  { 'name': 'Solstice mission'        , 'date': '2010/02/03', 'Ls':   6, 'color': 'blue' },
+  { 'name': 'Grand Finale'            , 'date': '2017/04/23', 'Ls':  89, 'color': 'blue' },
+  { 'name': 'End of the mission'      , 'date': '2017/09/15', 'Ls':  94, 'color': 'blue' },
+];
+var legend = [
+  { 'text': '10.07 ua'                , 'Ls':  97  , 'r': .7 , 'rot': -9 },
+  { 'text': 'Aphelion'                , 'Ls': 102.5, 'r': .7 , 'rot': -9 },
+  { 'text': '1988/08/31 -- 2018/04/07', 'Ls': 106  , 'r': .7 , 'rot': -9 },
+  { 'text': '9.01 ua'                 , 'Ls': 275  , 'r': .35, 'rot': -9 },
+  { 'text': 'Perihelion'              , 'Ls': 289  , 'r': .35, 'rot': -9 },
+  { 'text': '2003/07/21 -- 2032/11/21', 'Ls': 283  , 'r': .35, 'rot': -9 },
+  { 'text': 'Vernal'                  , 'Ls':   0  , 'r': 1.27,'rot': 0, 'size': 12 },
+  { 'text': 'Equinox'                 , 'Ls':   0  , 'r': 1.2, 'rot': 0, 'size': 12 },
+  { 'text': '1980/02/22 -- 2009/07/30', 'Ls':   4  , 'r': .4 , 'rot': 90 },
+  { 'text': 'Summer'                  , 'Ls':  89  , 'r': 1.31,'rot': 0, 'size': 12 },
+  { 'text': 'Solstice'                , 'Ls':  91  , 'r': 1.3, 'rot': 0, 'size': 12 },
+  { 'text': '1987/11/25 -- 2017/05/14', 'Ls':  88  , 'r': .5 , 'rot': 0 },
+  { 'text': 'Autumnal'                , 'Ls': 180  , 'r': 1.25,'rot': 0, 'size': 12 },
+  { 'text': 'Equinox'                 , 'Ls': 180  , 'r': 1.32, 'rot': 0, 'size': 12 },
+  { 'text': '1995/11/07 -- 2025/04/24', 'Ls':  176 , 'r': .5 , 'rot': 90 },
+  { 'text': 'Winter'                  , 'Ls':  271 , 'r': 1.055,'rot': 0, 'size': 12 },
+  { 'text': 'Solstice'                , 'Ls':  269 , 'r': 1.055,'rot': 0, 'size': 12 },
+  { 'text': '2002/10/23 -- 2032/03/26', 'Ls':  267 , 'r': .5 ,  'rot': 0 },
+  { 'text': 'Northern'                , 'Ls':  320 , 'r': .45  ,'rot': 0 },
+  { 'text': 'Winter'                  , 'Ls':  315 , 'r': .4   ,'rot': 0 },
+  { 'text': 'Northern'                , 'Ls':   40 , 'r': .55  ,'rot': 0 },
+  { 'text': 'Spring'                  , 'Ls':   45 , 'r': .48  ,'rot': 0 },
+  { 'text': 'Northern'                , 'Ls':  140 , 'r': .5   ,'rot': 0 },
+  { 'text': 'Summer'                  , 'Ls':  144 , 'r': .58  ,'rot': 0 },
+  { 'text': 'Northern'                , 'Ls':  220 , 'r': .5   ,'rot': 0 },
+  { 'text': 'Autumn'                  , 'Ls':  214 , 'r': .57  ,'rot': 0 },
+  { 'text': '|'                       , 'Ls':  180 , 'r': 1.12  ,'rot': 0 },
+  { 'text': '26.73º'                  , 'Ls':  185 , 'r': 1.14 ,'rot': 0 },
+]
+
+svg = new SVG(900,600);
+
+svg.addOrbit(300,200,-9.43);
+svg.addSun(.15);
+
+svg.addTitan();
+svg.addTitan(90);
+svg.addTitan(180);
+svg.addTitan(270);
+
+svg.addYears(years);
+svg.addCassini(cassini);
+svg.addFlybys(flybys);
+svg.addLegend(legend);
+</script>
+</body>
+</html>
