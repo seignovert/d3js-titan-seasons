@@ -129,36 +129,36 @@ class TITAN:
         self.r_w = self.dist[ self.date == self.sol_w[0] ][0]
         return
 
-    def setAphelion(self):
-        '''Search for the aphelion position (closest distance to the Sun)'''
-        self.r_aph = np.min(self.dist)
-        self.aphs = []; d_aph = self.date[0]; l_aph = 1.01 * self.r_aph
-        cond = ( self.dist < 1.01 * self.r_aph )
+    def setPerihelion(self):
+        '''Search for the perihelon position (closest distance to the Sun)'''
+        self.r_peri = np.min(self.dist)
+        self.peris = []; d_peri = self.date[0]; l_peri = 1.01 * self.r_peri
+        cond = ( self.dist < 1.01 * self.r_peri )
         for l,d in zip(self.dist[cond],self.date[cond]):
-            if l < l_aph:
+            if l < l_peri:
+                l_peri = l
+                d_peri = d
+            elif (d - d_peri) > self.orbit/4:
+                l_peri = 1.01 * self.r_peri
+                self.peris.append( d_peri )
+        if d_peri != self.date[-1]:
+            self.peris.append( d_peri )
+        return
+
+    def setAphelion(self):
+        '''Search for the aphelion position (farest distance to the Sun)'''
+        self.r_aph = np.max(self.dist)
+        self.aphs = []; d_aph = self.date[0]; l_aph = .99 * self.r_aph
+        cond = ( self.dist > .99 * self.r_aph )
+        for l,d in zip(self.dist[cond],self.date[cond]):
+            if l > l_aph:
                 l_aph = l
                 d_aph = d
             elif (d - d_aph) > self.orbit/4:
-                l_aph = 1.01 * self.r_aph
+                l_aph = .99 * self.r_aph
                 self.aphs.append( d_aph )
         if d_aph != self.date[-1]:
             self.aphs.append( d_aph )
-        return
-
-    def setPerihelion(self):
-        '''Search for the perihelion position (farest distance to the Sun)'''
-        self.r_per = np.max(self.dist)
-        self.pers = []; d_per = self.date[0]; l_per = .99 * self.r_per
-        cond = ( self.dist > .99 * self.r_per )
-        for l,d in zip(self.dist[cond],self.date[cond]):
-            if l > l_per:
-                l_per = l
-                d_per = d
-            elif (d - d_per) > self.orbit/4:
-                l_per = .99 * self.r_per
-                self.pers.append( d_per )
-        if d_per != self.date[-1]:
-            self.pers.append( d_per )
         return
 
     def fitLs(self,plot=False):
