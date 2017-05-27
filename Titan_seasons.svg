@@ -13,9 +13,9 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="Titan_seasons.svg"
-   inkscape:export-filename="/Users/benoit/Documents/Research/PhD/Data/OUT/Titan_seasons/Titan_seasons_2.png"
-   inkscape:export-xdpi="285.45999"
-   inkscape:export-ydpi="285.45999">
+   inkscape:export-filename="/Users/benoit/Documents/Research/PhD/Data/OUT/Titan_seasons/Titan_seasons.png"
+   inkscape:export-xdpi="113.74"
+   inkscape:export-ydpi="113.74">
   <metadata
      id="metadata241">
     <rdf:RDF>
@@ -48,7 +48,7 @@
      fit-margin-right="10"
      fit-margin-bottom="1"
      inkscape:zoom="1.4142136"
-     inkscape:cx="296.26458"
+     inkscape:cx="298.73945"
      inkscape:cy="287.66071"
      inkscape:window-x="4"
      inkscape:window-y="1081"
@@ -837,7 +837,7 @@
        sodipodi:role="line"
        id="tspan3730"
        x="420.03"
-       y="210.52322"></tspan><tspan
+       y="210.52322" /><tspan
        sodipodi:role="line"
        x="420.03"
        y="224.37744"
