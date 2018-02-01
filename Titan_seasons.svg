@@ -39,19 +39,19 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1916"
-     inkscape:window-height="1155"
+     inkscape:window-width="1676"
+     inkscape:window-height="1005"
      id="namedview237"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="10"
      fit-margin-bottom="1"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="298.73945"
-     inkscape:cy="287.66071"
-     inkscape:window-x="4"
-     inkscape:window-y="1081"
+     inkscape:zoom="1"
+     inkscape:cx="362.20261"
+     inkscape:cy="391.17196"
+     inkscape:window-x="1125"
+     inkscape:window-y="2161"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <path
@@ -132,8 +132,8 @@
      id="path31"
      inkscape:connector-curvature="0" />
   <text
-     x="425.90933"
-     y="42.234329"
+     x="432.71524"
+     y="44.444038"
      font-size="10"
      style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.08337498px;line-height:125%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle"
      id="text33"
@@ -661,8 +661,8 @@
      id="text183"
      style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.00000095px;line-height:125%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle"
      font-size="12"
-     y="36.039963"
-     x="411.07239"
+     y="37.365788"
+     x="414.87308"
      sodipodi:linespacing="125%">N</text>
   <text
      id="text185"
@@ -690,11 +690,6 @@
      style="fill:#696969"
      class="shadow"
      d="m 398.07239,81.039962 a 15,15 0 1 1 0,-30 15,15 0 1 0 0,30" />
-  <path
-     inkscape:connector-curvature="0"
-     id="path193"
-     style="fill:none;stroke:#000000;stroke-width:1"
-     d="m 413.07239,66.039962 a 15,4.5 0 0 1 -30,0" />
   <g
      class="Titan"
      transform="translate(60.225875,261.96965)"
@@ -732,11 +727,6 @@
        class="shadow"
        style="fill:#696969"
        id="path205"
-       inkscape:connector-curvature="0" />
-    <path
-       d="M 15,0 A 15,4.5 0 0 1 -15,0"
-       style="fill:none;stroke:#000000;stroke-width:1"
-       id="path207"
        inkscape:connector-curvature="0" />
   </g>
   <g
@@ -777,56 +767,45 @@
        style="fill:#696969"
        id="path219"
        inkscape:connector-curvature="0" />
-    <path
-       d="M 15,0 A 15,4.5 0 0 1 -15,0"
-       style="fill:none;stroke:#000000;stroke-width:1"
-       id="path221"
-       inkscape:connector-curvature="0" />
   </g>
-  <g
-     class="Titan"
-     transform="translate(650.01756,261.96965)"
-     id="g223">
-    <text
-       x="15"
-       y="-30"
-       font-size="12"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.00000095px;line-height:125%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle"
-       id="text225"
-       sodipodi:linespacing="125%">N</text>
-    <text
-       x="-15"
-       y="37.5"
-       font-size="12"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.00000095px;line-height:125%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle"
-       id="text227"
-       sodipodi:linespacing="125%">S</text>
-    <line
-       x1="0"
-       y1="30"
-       x2="0"
-       y2="-30"
-       transform="matrix(0.893136,0.44978671,-0.44978671,0.893136,0,0)"
-       style="fill:none;stroke:#000000;stroke-width:1"
-       id="line229" />
-    <circle
-       cx="0"
-       cy="0"
-       r="15"
-       style="fill:#ffd700"
-       id="circle231" />
-    <path
-       d="M 0,15 A 15,15 0 0 0 0,-15 15,0 -90 0 0 0,15"
-       class="shadow"
-       style="fill:#696969"
-       id="path233"
-       inkscape:connector-curvature="0" />
-    <path
-       d="M 15,0 A 15,4.5 0 0 1 -15,0"
-       style="fill:none;stroke:#000000;stroke-width:1"
-       id="path235"
-       inkscape:connector-curvature="0" />
-  </g>
+  <text
+     sodipodi:linespacing="125%"
+     id="text225"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.00000095px;line-height:125%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+     font-size="12"
+     y="231.96965"
+     x="665.01758">N</text>
+  <text
+     sodipodi:linespacing="125%"
+     id="text227"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.00000095px;line-height:125%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+     font-size="12"
+     y="299.46964"
+     x="635.01758">S</text>
+  <line
+     id="line229"
+     style="fill:none;stroke:#000000;stroke-width:1"
+     y2="235.17557"
+     x2="663.51117"
+     y1="288.76373"
+     x1="636.52399" />
+  <circle
+     id="circle231"
+     style="fill:#ffd700"
+     r="15"
+     cy="261.96964"
+     cx="650.01758" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path233"
+     style="fill:#696969"
+     class="shadow"
+     d="m 650.01756,276.96965 a 15,15 0 0 0 0,-30 15,0 -90 0 0 0,30" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path235"
+     style="fill:none;stroke:#000000;stroke-width:1"
+     d="M 663.41689,268.72572 A 15,4.5 27.564293 0 1 636.82213,254.84341" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.08337498px;line-height:125%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif, Medium';text-align:center;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:0.31694216;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.60000002;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -842,4 +821,19 @@
        x="420.03"
        y="224.37744"
        id="tspan3732" /></text>
+  <path
+     d="M 411.18575,73.075067 A 15,4.5 27.564293 0 1 384.59099,59.192757"
+     style="fill:none;stroke:#000000;stroke-width:1"
+     id="path4262"
+     inkscape:connector-curvature="0" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path4264"
+     style="fill:none;stroke:#000000;stroke-width:1"
+     d="M 73.322517,269.53161 A 15,4.5 27.564293 0 1 46.727757,255.6493" />
+  <path
+     d="M 411.39076,471.55253 A 15,4.5 27.564293 0 1 384.796,457.67022"
+     style="fill:none;stroke:#000000;stroke-width:1"
+     id="path4266"
+     inkscape:connector-curvature="0" />
 </svg>
