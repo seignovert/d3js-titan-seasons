@@ -372,7 +372,7 @@ Planet = (function() {
       'd': this.dShadow(0),
       'class': 'shadow'
     }).style(this.shadowStyle);
-    return this.g.append('path').attr(this.eq).style(this.poleStyle);
+    return this.g.append('path').attr(this.eq).attr('transform', "rotate(" + this.obl + ")").style(this.poleStyle);
   };
 
   Planet.prototype.update = function(Ls) {

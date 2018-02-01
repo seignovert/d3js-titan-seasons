@@ -271,6 +271,7 @@ class Planet
       .style( @shadowStyle )
     @g.append('path')
       .attr( @eq )
+      .attr( 'transform', "rotate(#{@obl})" )
       .style( @poleStyle )
 
   # Move the position of the planet at the solar longitude Ls
