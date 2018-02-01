@@ -46,9 +46,8 @@ $$360 \cdot \frac{\text{Date} - \text{Eq}^V}{\text{Orbit}} = L_s + A * \sin\left
 with: A = 6.17 | B = 6.06 | C = 100.94 (Fit).
 
 We get a transcendental equation which is solved with the Newton method, ie. the series:
-$$
-L_s^0 = 360 \cdot \frac{\text{Date} - \text{Eq}^V}{\text{Orbit}} - B\\
-L_s^{n+1} = L_s^n - \frac{
+$$ L_s^0 = 360 \cdot \frac{\text{Date} - \text{Eq}^V}{\text{Orbit}} - B$$
+$$ L_s^{n+1} = L_s^n - \frac{
 L_s^n - L_s^0 + A\cdot\sin\left(2\pi\cdot \frac{L_s^n - C}{360} \right)
 }{
 1 + A\cdot\frac{2\pi}{360}\cos\left(2\pi\cdot \frac{L_s^n - C}{360} \right)
@@ -63,13 +62,13 @@ $$ \left( \frac{x}{a} \right)^2 + \left( \frac{y}{b} \right)^2 = 1$$
 Rotation of $\theta$:
 $$ \left(\begin{array}{r}
 X \\
-Y \\
+Y
 \end{array} \right) = \left(\begin{array}{rr}
  \cos\theta & \sin\theta \\
--\sin\theta & \cos\theta \\
+-\sin\theta & \cos\theta
 \end{array} \right) \cdot \left(\begin{array}{r}
 x \\
-y \\
+y
 \end{array} \right)$$
 
 Rotated ellipse:
@@ -78,13 +77,13 @@ $$ \left( \frac{X \cos\theta + Y \sin\theta}{a} \right)^2 + \left( \frac{-X \sin
 Primary focus location (Sun location):
 $$ \left(\begin{array}{r}
 X_f \\
-Y_f \\
+Y_f
 \end{array} \right) = \left(\begin{array}{rr}
  \cos\theta & \sin\theta \\
--\sin\theta & \cos\theta \\
+-\sin\theta & \cos\theta
 \end{array} \right) \cdot \left(\begin{array}{r}
 c \\
-0 \\
+0
 \end{array} \right)$$
 
 The line passing through the primary focus with an angle $L_s$ (clock-wise with respect to the vernal equinox):
@@ -96,12 +95,13 @@ Re-injected into the ellipse equation, we get:
 $$\alpha \cdot X^2 + \beta \cdot X + \gamma = 0 $$
 with:
 $$ \alpha = \left(\frac{C \sin\theta + \cos\theta}{a}\right)^2 +
-\left(\frac{C \cos\theta - \sin\theta}{b}\right)^2 \\
-\beta = 2 D \cdot
+\left(\frac{C \cos\theta - \sin\theta}{b}\right)^2$$
+$$\beta = 2 D \cdot
 \left(
 \cos\theta \cdot \sin\theta \cdot \left[ \frac{1}{a^2} - \frac{1}{b^2} \right]
 + C \left[ \frac{\sin^2\theta}{a^2} + \frac{\cos^2\theta}{b^2} \right]
-\right) \\
+\right)$$
+$$
 \gamma = D^2 \cdot \left( \frac{\sin^2\theta}{a^2} + \frac{\cos^2\theta}{b^2} \right) - 1
 $$
 
