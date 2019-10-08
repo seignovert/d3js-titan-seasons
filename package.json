@@ -1,0 +1,8 @@
+{
+    "devDependencies": {
+        "coffeescript": "^2.4.1"
+    },
+    "bin": {
+        "coffee": "./bin/coffee"
+    }
+}
