@@ -15,9 +15,13 @@ class SVG
   constructor: (@w = 900, @h = 600) ->
     @svg = d3.select('body')
               .append('svg')
-                .attr( {
+                .attr({
                   'width'    : @w
                   'height'   : @h
+                  'transform': "translate(#{@w/2},#{@h/2})"
+                  })
+              .append('g')
+                .attr({
                   'transform': "translate(#{@w/2},#{@h/2})"
                   })
 

@@ -57,6 +57,8 @@ SVG = class SVG {
       'width': this.w,
       'height': this.h,
       'transform': `translate(${this.w / 2},${this.h / 2})`
+    }).append('g').attr({
+      'transform': `translate(${this.w / 2},${this.h / 2})`
     });
   }
 
