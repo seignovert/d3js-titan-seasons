@@ -115,13 +115,13 @@ which allow us to get $Y$ from the previous equation.
 (NB: the sign $\pm$ is determined by the value of $L_s$)
 
 Flybys
-=======
+------
 - Pioneer 11: 1979/09/11 (Ls = 354°)
 - Voyager 1 : 1980/11/12 (Ls =   8°)
 - Voyager 2 : 1981/08/25 (Ls =  18°)
 
 Cassini
-========
+-------
 - Cassini launch:           1997/10/15 (Ls = 203°)
 - Saturn orbital insertion: 2004/07/01 (Ls = 293°)
 - Huygens landing:          2005/01/14 (Ls = 300°)
@@ -129,3 +129,11 @@ Cassini
 - Solstice mission:         2010/02/03 (Ls =   6°)
 - Grand Finale:             2017/04/23 (Ls =  89°)
 - End of the mission:       2017/09/15 (Ls =  94°)
+
+
+Local dev
+---------
+```bash
+yarn install --dev
+yarn coffee --watch  --bare --compile assets/Seasons.coffee
+```

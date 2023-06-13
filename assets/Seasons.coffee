@@ -1,7 +1,8 @@
-dcos = (angle) -> # Cosine of angle in degree
-  Math.cos(angle/180*Math.PI)
-dsin = (angle) -> # Sine of angle in degree
-  Math.sin(angle/180*Math.PI)
+# Orbital seasons coffeescript
+
+# Cosine and sine of angle in degrees
+dcos = (angle) -> Math.cos(angle/180*Math.PI)
+dsin = (angle) -> Math.sin(angle/180*Math.PI)
 
 # Shortcuts
 text    = (x,y,s) -> {'x': x, 'y': y, 'font-size': s}
@@ -296,8 +297,4 @@ class Planet
 class Titan extends Planet
 
   constructor: (sun) ->
-    @name  = 'Titan'
-    @obl   = 26.73 # Obliquity
-    @R_T   = 15
-    @color = 'gold'
-    super(sun, @R_T, @obl, @color, @name)
+    super(sun, 15, 26.73, 'gold', 'Titan')
