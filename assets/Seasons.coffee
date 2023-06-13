@@ -217,7 +217,6 @@ class Sun
 
   # Draw legend text
   legend: ( leg )->
-    console.log leg.Ls
     [x,y] = @Ls( leg.Ls )
     r = Math.sqrt(x*x + y*y)
     xt = @x - leg.r * r * dsin(leg.Ls)

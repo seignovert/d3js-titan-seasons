@@ -296,7 +296,6 @@ Sun = class Sun {
   // Draw legend text
   legend(leg) {
     var r, ref, ref1, rt, st, x, xt, y, yt;
-    console.log(leg.Ls);
     [x, y] = this.Ls(leg.Ls);
     r = Math.sqrt(x * x + y * y);
     xt = this.x - leg.r * r * dsin(leg.Ls);
