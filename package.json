@@ -1,6 +1,6 @@
 {
     "devDependencies": {
-        "coffeescript": "^2.4.1"
+        "coffeescript": "^2.7.0"
     },
     "bin": {
         "coffee": "./bin/coffee"
