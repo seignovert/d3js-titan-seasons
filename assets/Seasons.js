@@ -56,7 +56,7 @@ SVG = class SVG {
     this.svg = d3.select('body').append('svg').attr({
       'width': this.w,
       'height': this.h,
-      'transform': `translate(${this.w / 2},${this.h / 2})`
+      'transform': `translate(${this.w / 2}, 0)`
     }).append('g').attr({
       'transform': `translate(${this.w / 2},${this.h / 2})`
     });
@@ -107,7 +107,7 @@ SVG = class SVG {
     results = [];
     for (i = 0, len = flybys.length; i < len; i++) {
       flyby = flybys[i];
-      results.push(this.sun.coverage(flyby.Ls, flyby.Ls + 1, flyby.color, flyby.name));
+      results.push(this.sun.coverage(flyby.Ls, flyby.Ls + 1, flyby.color, flyby.name, 30, 0.8, true));
     }
     return results;
   }
@@ -268,7 +268,7 @@ Sun = class Sun {
   }
 
   // Draw thick portion of ellipse between Ls1 and Ls2
-  coverage(Ls1, Ls2, color = 'gray', name, thickness = 30) {
+  coverage(Ls1, Ls2, color = 'gray', name, thickness = 30, opacity = 0.3, textColor = null) {
     var a2, b2, d, rt, x1, x2, x3, x4, xt, y1, y2, y3, y4, yt;
     [x1, y1] = this.Ls(Ls1);
     [x2, y2] = this.Ls(Ls2);
@@ -285,13 +285,15 @@ Sun = class Sun {
     this.t.append('path').attr('d', d).style({
       'stroke': 'none',
       'fill': color,
-      'opacity': 0.3
+      'opacity': opacity
     });
     if (name != null) {
       xt = x3 + .85 * thickness * dsin(Ls2);
       yt = y3 + .85 * thickness * dcos(Ls2);
       rt = Ls2 < 180 ? 90 - Ls2 : -90 - Ls2;
-      return this.t.append('text').attr(text(xt, yt, 10)).attr('transform', `rotate(${rt},${xt},${yt})`).style(this.textStyle).text(name);
+      return this.t.append('text').attr(text(xt, yt, 10)).attr('transform', `rotate(${rt},${xt},${yt})`).style({
+        'fill': color
+      }).style(this.textStyle).text(name);
     }
   }
 
@@ -304,7 +306,8 @@ Sun = class Sun {
     yt = this.y - leg.r * r * dcos(leg.Ls);
     rt = (ref = leg.rot) != null ? ref : (leg.Ls < 180 ? 90 - leg.Ls : -90 - leg.Ls);
     st = (ref1 = leg.size) != null ? ref1 : 10;
-    return this.t.append('text').attr(text(xt, yt, st)).attr('transform', `rotate(${rt},${xt},${yt})`).style(this.textStyle).text(leg.text);
+    return this.t.append('text').attr(text(xt, yt, st)).attr('transform', `rotate(${rt},${xt},${    // .style( 'fill': 'red' )
+yt})`).style(this.textStyle).text(leg.text);
   }
 
 };

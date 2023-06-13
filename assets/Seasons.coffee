@@ -18,7 +18,7 @@ class SVG
                 .attr({
                   'width'    : @w
                   'height'   : @h
-                  'transform': "translate(#{@w/2},#{@h/2})"
+                  'transform': "translate(#{@w/2}, 0)"
                   })
               .append('g')
                 .attr({
@@ -50,7 +50,7 @@ class SVG
 
   addFlybys: (flybys) ->
     for flyby in flybys
-      @sun.coverage( flyby.Ls, flyby.Ls+1, flyby.color, flyby.name )
+      @sun.coverage( flyby.Ls, flyby.Ls+1, flyby.color, flyby.name, 30, 0.8, true )
 
   addCassini: (cassini) ->
     [first, ..., last] = cassini
@@ -192,7 +192,7 @@ class Sun
         .text( txt )
 
   # Draw thick portion of ellipse between Ls1 and Ls2
-  coverage: ( Ls1, Ls2, color = 'gray', name, thickness = 30 )->
+  coverage: ( Ls1, Ls2, color = 'gray', name, thickness = 30, opacity = 0.3, textColor = null )->
     [x1,y1] = @Ls( Ls1 )
     [x2,y2] = @Ls( Ls2 )
     x3 = x2 + thickness * dsin(Ls2)
@@ -208,14 +208,15 @@ class Sun
 
     @t.append('path')
       .attr( 'd', d )
-      .style({ 'stroke': 'none', 'fill': color, 'opacity': 0.3 })
+      .style({ 'stroke': 'none', 'fill': color, 'opacity': opacity })
     if name?
       xt = x3 + .85*thickness * dsin(Ls2)
       yt = y3 + .85*thickness * dcos(Ls2)
-      rt = if Ls2 < 180 then 90-Ls2 else -90-Ls2
+      rt = if Ls2 < 180 then 90 - Ls2 else -90 - Ls2
       @t.append('text')
-        .attr( text(xt,yt,10) )
+        .attr( text(xt, yt, 10) )
         .attr( 'transform', "rotate(#{rt},#{xt},#{yt})" )
+        .style('fill': color)
         .style( @textStyle )
         .text( name )
 
@@ -231,6 +232,7 @@ class Sun
       .attr( text(xt,yt,st) )
       .attr( 'transform', "rotate(#{rt},#{xt},#{yt})" )
       .style( @textStyle )
+      # .style( 'fill': 'red' )
       .text( leg.text )
 
 
