@@ -116,16 +116,16 @@ which allow us to get $Y$ from the previous equation.
 
 Flybys
 =======
-- Pioneer 11: 1979/09/11 (Ls = 354º)
-- Voyager 1 : 1980/11/12 (Ls =   8º)
-- Voyager 2 : 1981/08/25 (Ls =  18º)
+- Pioneer 11: 1979/09/11 (Ls = 354°)
+- Voyager 1 : 1980/11/12 (Ls =   8°)
+- Voyager 2 : 1981/08/25 (Ls =  18°)
 
 Cassini
 ========
-- Cassini launch:           1997/10/15 (Ls = 203º)
-- Saturn orbital insertion: 2004/07/01 (Ls = 293º)
-- Huygens landing:          2005/01/14 (Ls = 300º)
-- Equinox mission:          2008/06/30 (Ls = 346º)
-- Solstice mission:         2010/02/03 (Ls =   6º)
-- Grand Finale:             2017/04/23 (Ls =  89º)
-- End of the mission:       2017/09/15 (Ls =  94º)
+- Cassini launch:           1997/10/15 (Ls = 203°)
+- Saturn orbital insertion: 2004/07/01 (Ls = 293°)
+- Huygens landing:          2005/01/14 (Ls = 300°)
+- Equinox mission:          2008/06/30 (Ls = 346°)
+- Solstice mission:         2010/02/03 (Ls =   6°)
+- Grand Finale:             2017/04/23 (Ls =  89°)
+- End of the mission:       2017/09/15 (Ls =  94°)
