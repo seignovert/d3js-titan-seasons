@@ -204,25 +204,25 @@ class TITAN:
         autumn = self.sol_w[0] - self.eq_a[0]
         winter = self.eq_v[1]  - self.sol_w[0]
 
-        print 'Date coverage: %s | %s' % ( self.date[0], self.date[-1] )
-        print 'Orbit       : %s (Earth) = %i years %i months %i days | %s (Titan)' % ( self.orbit, orbit_y,orbit_m,orbit_d,self.orbit/self.Tday )
-        print 'Equinox  (V): %s ' % (' | '.join(str(eq)  for eq  in self.eq_v ) )
-        print 'Solstice (S): %s ' % (' | '.join(str(sol) for sol in self.sol_s) )
-        print 'Equinox  (A): %s ' % (' | '.join(str(eq)  for eq  in self.eq_a ) )
-        print 'Solstice (W): %s ' % (' | '.join(str(sol) for sol in self.sol_w) )
-        print 'Obliquity   : %.2f deg' % self.obl
-        print 'N Spring    : %s (Earth) | %s (Titan) | Ls =   0 | R = %.2f UA' % ( spring, spring/self.Tday, self.r_v )
-        print 'N Summer    : %s (Earth) | %s (Titan) | Ls =  90 | R = %.2f UA' % ( summer, summer/self.Tday, self.r_s )
-        print 'N Autumn    : %s (Earth) | %s (Titan) | Ls = 180 | R = %.2f UA' % ( autumn, autumn/self.Tday, self.r_a )
-        print 'N Winter    : %s (Earth) | %s (Titan) | Ls = 270 | R = %.2f UA' % ( winter, winter/self.Tday, self.r_w )
-        print 'Perihelion  : %s | %.2f UA' % (' | '.join(str(per) for per in self.pers), self.r_per )
-        print 'Aphelion    : %s | %.2f UA' % (' | '.join(str(aph) for aph in self.aphs), self.r_aph )
-        print '360*(Date - Eq_V)/orbit = Ls + A * sin[2.PI/360 * (Ls - C)] + B'
-        print 'with: A = %.2f | B = %.2f | C = %.2f' % (self.A,self.B,self.C)
+        print('Date coverage: %s | %s' % ( self.date[0], self.date[-1] ))
+        print('Orbit       : %s (Earth) = %i years %i months %i days | %s (Titan)' % ( self.orbit, orbit_y,orbit_m,orbit_d,self.orbit/self.Tday ))
+        print('Equinox  (V): %s ' % (' | '.join(str(eq)  for eq  in self.eq_v ) ))
+        print('Solstice (S): %s ' % (' | '.join(str(sol) for sol in self.sol_s) ))
+        print('Equinox  (A): %s ' % (' | '.join(str(eq)  for eq  in self.eq_a ) ))
+        print('Solstice (W): %s ' % (' | '.join(str(sol) for sol in self.sol_w) ))
+        print('Obliquity   : %.2f deg' % self.obl)
+        print('N Spring    : %s (Earth) | %s (Titan) | Ls =   0 | R = %.2f UA' % ( spring, spring/self.Tday, self.r_v ))
+        print('N Summer    : %s (Earth) | %s (Titan) | Ls =  90 | R = %.2f UA' % ( summer, summer/self.Tday, self.r_s ))
+        print('N Autumn    : %s (Earth) | %s (Titan) | Ls = 180 | R = %.2f UA' % ( autumn, autumn/self.Tday, self.r_a ))
+        print('N Winter    : %s (Earth) | %s (Titan) | Ls = 270 | R = %.2f UA' % ( winter, winter/self.Tday, self.r_w ))
+        print('Perihelion  : %s | %.2f UA' % (' | '.join(str(per) for per in self.pers), self.r_per ))
+        print('Aphelion    : %s | %.2f UA' % (' | '.join(str(aph) for aph in self.aphs), self.r_aph ))
+        print('360*(Date - Eq_V)/orbit = Ls + A * sin[2.PI/360 * (Ls - C)] + B')
+        print('with: A = %.2f | B = %.2f | C = %.2f' % (self.A,self.B,self.C))
         return
 
     def date2ls(self,date,eps=1.e-7,imax=25):
-        '''Calculate the solar longitude corresponding to a date.
+        r'''Calculate the solar longitude corresponding to a date.
 
         Parameters
         -----------
@@ -294,7 +294,7 @@ if __name__ == '__main__':
             elif arg.lower() in ['naif','spice','load','reload','read','import']:
                 titan.reload()
             elif len(arg) == 10 :
-                print 'Ls: %.2f' % titan.date2ls( arg )
+                print('Ls: %.2f' % titan.date2ls( arg ))
             else:
                 try:
                     if '+' in arg:
@@ -304,7 +304,7 @@ if __name__ == '__main__':
                     else:
                         Ls = float(arg)
                         Ty = 0
-                    print 'Date: %s' % titan.ls2date(Ls,Ty=Ty)
+                    print('Date: %s' % titan.ls2date(Ls,Ty=Ty))
                 except ValueError:
                     pass
     else:
