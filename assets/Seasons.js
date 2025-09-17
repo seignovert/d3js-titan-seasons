@@ -118,6 +118,12 @@ SVG = class SVG {
     return this.sun.coverage(first.Ls, last.Ls, first.color, 'Cassini');
   }
 
+  addJWST(jwst) {
+    var first, last;
+    [first] = jwst, [last] = slice.call(jwst, -1);
+    return this.sun.coverage(first.Ls, last.Ls, first.color);
+  }
+
   addLegend(legend) {
     var i, leg, len, results;
     results = [];

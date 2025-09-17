@@ -45,6 +45,10 @@ var cassini = [
   { 'name': 'Grand Finale'            , 'date': '2017/04/23', 'Ls':  89, 'color': 'blue' },
   { 'name': 'End of the mission'      , 'date': '2017/09/15', 'Ls':  94, 'color': 'blue' },
 ];
+var jwst = [
+  { 'name': 'JWST', 'date': '2022/07/12', 'Ls': 147, 'color': 'green' },
+  { 'name': 'JWST', 'date': '2032/03/30', 'Ls': 270, 'color': 'green' },
+];
 var legend = [
   { 'text': '10.07 ua'                , 'Ls':  97  , 'r': .7 , 'rot': -9 },
   { 'text': 'Aphelion'                , 'Ls': 102.5, 'r': .7 , 'rot': -9 },
@@ -88,6 +92,7 @@ svg.addTitan(270);
 
 svg.addYears(years);
 svg.addCassini(cassini);
+svg.addJWST(jwst);
 svg.addFlybys(flybys);
 svg.addLegend(legend);
 </script>
