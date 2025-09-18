@@ -1,152 +1,202 @@
-<svg version="1.1" viewBox="0 0 764.92 539.77" xmlns="http://www.w3.org/2000/svg">
- <path d="m673.73 258.07 9.9895-0.45712" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="698.70306" y="256.92731" dominant-baseline="central" font-size="10px" text-anchor="middle">2003</text>
- <path d="m663.77 198.5 9.5976-2.8083" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="687.75934" y="191.48239" dominant-baseline="central" font-size="10px" text-anchor="middle">2004</text>
- <path d="m630.17 148.67 8.6602-5" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="651.81635" y="136.16618" dominant-baseline="central" font-size="10px" text-anchor="middle">2005</text>
- <path d="m584.45 114.01 7.2501-6.8873" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="602.57782" y="96.791367" dominant-baseline="central" font-size="10px" text-anchor="middle">2006</text>
- <path d="m536.23 92.501 5.4654-8.3743" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="549.89062" y="71.564835" dominant-baseline="central" font-size="10px" text-anchor="middle">2007</text>
- <path d="m489.72 80.386 3.43-9.3933" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="498.29791" y="56.903046" dominant-baseline="central" font-size="10px" text-anchor="middle">2008</text>
- <path d="m445.31 74.719 1.2568-9.9207" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="448.44794" y="49.917343" dominant-baseline="central" font-size="10px" text-anchor="middle">2009</text>
- <path d="m402.52 73.908-0.92023-9.9576" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="400.22061" y="49.013626" dominant-baseline="central" font-size="10px" text-anchor="middle">2010</text>
- <path d="m360 77.295-3.0054-9.5377" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="352.48434" y="53.450958" dominant-baseline="central" font-size="10px" text-anchor="middle">2011</text>
- <path d="m316.43 85.071-4.9151-8.7087" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="304.14667" y="63.298752" dominant-baseline="central" font-size="10px" text-anchor="middle">2012</text>
- <path d="m270.69 98.217-6.583-7.5276" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="254.23177" y="79.398285" dominant-baseline="central" font-size="10px" text-anchor="middle">2013</text>
- <path d="m222.41 118.5-7.9516-6.064" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="202.53474" y="103.34256" dominant-baseline="central" font-size="10px" text-anchor="middle">2014</text>
- <path d="m172.49 148.64-8.9879-4.3837" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="150.02405" y="137.67859" dominant-baseline="central" font-size="10px" text-anchor="middle">2015</text>
- <path d="m125.15 191.59-9.6682-2.5545" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="100.97556" y="185.20134" dominant-baseline="central" font-size="10px" text-anchor="middle">2016</text>
- <path d="m89.654 248.42-9.9795-0.64009" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="64.705208" y="246.8244" dominant-baseline="central" font-size="10px" text-anchor="middle">2017</text>
- <path d="m78.816 313.92-9.9172 1.2845" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="54.023109" y="317.134" dominant-baseline="central" font-size="10px" text-anchor="middle">2018</text>
- <path d="m260.81 473.3-6.1731 7.8672" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="245.38165" y="492.97034" dominant-baseline="central" font-size="10px" text-anchor="middle">2022</text>
- <path d="m314.74 479.8-4.4994 8.9306" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="303.4877" y="502.12192" dominant-baseline="central" font-size="10px" text-anchor="middle">2023</text>
- <path d="m363.68 479.5-2.6185 9.6511" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="357.12952" y="503.62601" dominant-baseline="central" font-size="10px" text-anchor="middle">2024</text>
- <path d="m408.55 474.39-0.58784 9.9827" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="407.08505" y="499.35135" dominant-baseline="central" font-size="10px" text-anchor="middle"/>
- <path d="m450.46 465.4 1.5074 9.8857" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="454.22858" y="490.11664" dominant-baseline="central" font-size="10px" text-anchor="middle">2026</text>
- <path d="m490.76 452.59 3.5804 9.337" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="499.71066" y="475.9296" dominant-baseline="central" font-size="10px" text-anchor="middle">2027</text>
- <path d="m530.57 435.28 5.531 8.3311" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="544.39539" y="456.10443" dominant-baseline="central" font-size="10px" text-anchor="middle">2028</text>
- <path d="m570.61 411.95 7.2549 6.8823" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="588.7464" y="429.15146" dominant-baseline="central" font-size="10px" text-anchor="middle">2029</text>
- <path d="m610.07 380.45 8.6322 5.0483" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="631.64594" y="393.0704" dominant-baseline="central" font-size="10px" text-anchor="middle">2030</text>
- <path d="m645.72 338.13 9.5671 2.9104" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="669.64014" y="345.40848" dominant-baseline="central" font-size="10px" text-anchor="middle">2031</text>
- <path d="m669.74 284.15 9.9831 0.58087" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="694.69342" y="285.60016" dominant-baseline="central" font-size="10px" text-anchor="middle">2032</text>
- <path d="m671.41 223.71 9.8363-1.8018" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="695.99713" y="219.2092" dominant-baseline="central" font-size="10px" text-anchor="middle">2033</text>
- <path d="m647.02 168.56 9.1312-4.0769" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="669.84869" y="158.37199" dominant-baseline="central" font-size="10px" text-anchor="middle">2034</text>
- <path d="m649.7 172.41a200 300 80.57 0 0-570.83 121.14l29.927-2.0927a170 270 80.57 0 1 513.28-107.33z" fill="#00f" opacity=".3"/>
- <text transform="rotate(-4)" x="113.70615" y="298.33612" dominant-baseline="central" fill="#0000ff" font-size="10px" text-anchor="middle">Cassini</text>
- <path d="m285.79 477.26a200 300 80.57 0 0 386.77-207.61h-30a170 270 80.57 0 1-340.43 182.45z" fill="#008000" opacity=".3"/>
- <path d="m441.13 74.447a200 300 80.57 0 0-3.4219-0.19108l-2.6147 29.886a170 270 80.57 0 1 2.9008 0.1409z" fill="#f00" opacity=".8"/>
- <text transform="rotate(-85)" x="-91.324745" y="442.51224" dominant-baseline="central" fill="#ff0000" font-size="10px" text-anchor="middle">Pioneer 11</text>
- <path d="m393.16 74.3a200 300 80.57 0 0-3.4549 0.19533l4.693 29.631a170 270 80.57 0 1 2.937-0.11794z" fill="#f00" opacity=".8"/>
- <text transform="rotate(81)" x="190.0406" y="-373.24957" dominant-baseline="central" fill="#ff0000" font-size="10px" text-anchor="middle">Voyager 1</text>
- <path d="m358.19 77.531a200 300 80.57 0 0-3.5615 0.48539l9.767 28.366a170 270 80.57 0 1 3.065-0.31925z" fill="#f00" opacity=".8"/>
- <text transform="rotate(71)" x="244.72055" y="-309.90518" dominant-baseline="central" fill="#ff0000" font-size="10px" text-anchor="middle">Voyager 2</text>
- <g fill="#ff7f0e">
-  <path d="m630.17 148.67a200 300 80.57 0 0-3.0962-3.0664l-25.715 15.451a170 270 80.57 0 1 2.8304 2.6152z" opacity=".8"/>
-  <text transform="rotate(-31)" x="407.01407" y="447.7681" dominant-baseline="central" font-size="10px" text-anchor="middle">Huygens</text>
-  <path d="m644.55 165.23a200 300 80.57 0 0-2.7147-3.4739l-26.964 13.151a170 270 80.57 0 1 2.4893 3.0013z" opacity=".8"/>
-  <text transform="rotate(-26)" x="450.47171" y="426.74594" dominant-baseline="central" font-size="10px" text-anchor="middle">DragonFly</text>
+<svg transform="translate(450)" version="1.1" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(450,300)">
+  <g id="ticks">
+   <path d="m-39.584 203.33-3.7023 9.2894" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="-48.839766093018326" y="226.5512998596609" dominant-baseline="central" font-size="10" text-anchor="middle">1994</text>
+   <path d="m7.3905 200.77-1.7502 9.8456" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="3.014929081584743" y="225.38660520641733" dominant-baseline="central" font-size="10" text-anchor="middle">1995</text>
+   <path d="m131.88 168.64 4.451 8.9548" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="143.00941577913284" y="191.02989081652703" dominant-baseline="central" font-size="10" text-anchor="middle">1998</text>
+   <path d="m171.72 148.97 6.3149 7.7539" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="187.50649562390547" y="168.3532603286403" dominant-baseline="central" font-size="10" text-anchor="middle">1999</text>
+   <path d="m211.64 122.45 7.8994 6.1318" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="231.38804626503958" y="137.78074820112673" dominant-baseline="central" font-size="10" text-anchor="middle">2000</text>
+   <path d="m250.19 86.456 9.0989 4.1485" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="272.9323082220892" y="96.82713067662561" dominant-baseline="central" font-size="10" text-anchor="middle">2001</text>
+   <path d="m282.03 38.906 9.8156 1.9115" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="306.5713341030015" y="43.684590200549" dominant-baseline="central" font-size="10" text-anchor="middle">2002</text>
+   <path d="m297.51-18.955 9.9895-0.45712" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="322.48399490887743" y="-20.098275478417573" dominant-baseline="central" font-size="10" text-anchor="middle">2003</text>
+   <path d="m287.55-78.522 9.5976-2.8083" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="311.5402925505386" y="-85.54318762507657" dominant-baseline="central" font-size="10" text-anchor="middle">2004</text>
+   <path d="m253.95-128.36 8.6603-5" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="275.5972548557139" y="-140.85939080898325" dominant-baseline="central" font-size="10" text-anchor="middle">2005</text>
+   <path d="m208.23-163.02 7.2501-6.8873" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="226.3587772631781" y="-180.23420681955128" dominant-baseline="central" font-size="10" text-anchor="middle">2006</text>
+   <path d="m160.01-184.52 5.4654-8.3743" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="173.671564023391" y="-205.46073327262178" dominant-baseline="central" font-size="10" text-anchor="middle">2007</text>
+   <path d="m113.5-196.64 3.43-9.3933" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="122.07881891628087" y="-220.12252114821223" dominant-baseline="central" font-size="10" text-anchor="middle">2008</text>
+   <path d="m69.087-202.31 1.2568-9.9207" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="72.22884947071779" y="-227.10823703208086" dominant-baseline="central" font-size="10" text-anchor="middle">2009</text>
+   <path d="m26.302-203.12-0.92023-9.9576" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="24.001505866835203" y="-228.01195269062336" dominant-baseline="central" font-size="10" text-anchor="middle">2010</text>
+   <path d="m-16.221-199.73-3.0054-9.5377" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="-23.734756992960364" y="-223.57460988522314" dominant-baseline="central" font-size="10" text-anchor="middle">2011</text>
+   <path d="m-59.785-191.96-4.9151-8.7087" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="-72.07243573088599" y="-213.72682180189037" dominant-baseline="central" font-size="10" text-anchor="middle">2012</text>
+   <path d="m-105.53-178.81-6.583-7.5276" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="-121.98733894558876" y="-197.62728585635466" dominant-baseline="central" font-size="10" text-anchor="middle">2013</text>
+   <path d="m-153.81-158.52-7.9516-6.064" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="-173.68435039146095" y="-173.6830124879089" dominant-baseline="central" font-size="10" text-anchor="middle">2014</text>
+   <path d="m-203.73-128.39-8.9879-4.3837" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="-226.19505660743823" y="-139.34698617128078" dominant-baseline="central" font-size="10" text-anchor="middle">2015</text>
+   <path d="m-251.07-85.438-9.6682-2.5545" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="-275.2435384086233" y="-91.82423661788194" dominant-baseline="central" font-size="10" text-anchor="middle">2016</text>
+   <path d="m-286.57-28.601-9.9795-0.6401" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="-311.5138709903589" y="-30.201181385887363" dominant-baseline="central" font-size="10" text-anchor="middle">2017</text>
+   <path d="m-297.4 36.897-9.9172 1.2845" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="-322.19599777454994" y="40.10842537720286" dominant-baseline="central" font-size="10" text-anchor="middle">2018</text>
+   <path d="m-115.4 196.28-6.1731 7.8672" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="-130.83744617463134" y="215.9447640677289" dominant-baseline="central" font-size="10" text-anchor="middle">2022</text>
+   <path d="m-61.483 202.77-4.4994 8.9306" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="-72.73137787923119" y="225.09633659729963" dominant-baseline="central" font-size="10" text-anchor="middle">2023</text>
+   <path d="m-12.543 202.47-2.6185 9.6511" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="-19.08956200685506" y="226.60041982914913" dominant-baseline="central" font-size="10" text-anchor="middle">2024</text>
+   <path d="m32.336 197.37-0.58784 9.9827" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="30.865967962790794" y="222.3257594123287" dominant-baseline="central" font-size="10" text-anchor="middle"/>
+   <path d="m74.241 188.38 1.5074 9.8857" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="78.0094938244573" y="213.09106405383687" dominant-baseline="central" font-size="10" text-anchor="middle">2026</text>
+   <path d="m114.54 175.56 3.5804 9.3371" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="123.49158669085111" y="198.90402289239938" dominant-baseline="central" font-size="10" text-anchor="middle">2027</text>
+   <path d="m154.35 158.25 5.531 8.3311" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="168.17634953322084" y="179.07884013734338" dominant-baseline="central" font-size="10" text-anchor="middle">2028</text>
+   <path d="m194.39 134.92 7.2549 6.8823" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="212.52731219707252" y="152.12588021809182" dominant-baseline="central" font-size="10" text-anchor="middle">2029</text>
+   <path d="m233.85 103.42 8.6322 5.0483" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="255.4269009146149" y="116.04482853615028" dominant-baseline="central" font-size="10" text-anchor="middle">2030</text>
+   <path d="m269.5 61.107 9.5671 2.9104" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="293.4210444232131" y="68.38289012725491" dominant-baseline="central" font-size="10" text-anchor="middle">2031</text>
+   <path d="m293.52 7.1224 9.9831 0.58087" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="318.47433990726574" y="8.574572318447181" dominant-baseline="central" font-size="10" text-anchor="middle">2032</text>
+   <path d="m295.19-53.312 9.8363-1.8018" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="319.7780802680936" y="-57.816376649440635" dominant-baseline="central" font-size="10" text-anchor="middle">2033</text>
+   <path d="m270.8-108.46 9.1312-4.0769" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="293.6296033682671" y="-118.65357600478342" dominant-baseline="central" font-size="10" text-anchor="middle">2034</text>
+   <path d="m228.88-149.75 7.9165-6.1097" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="248.66923526884517" y="-165.02870485513156" dominant-baseline="central" font-size="10" text-anchor="middle">2035</text>
+   <path d="m180.93-176.53 6.281-7.7813" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="196.63572430668253" y="-195.9833932055007" dominant-baseline="central" font-size="10" text-anchor="middle">2036</text>
+   <path d="m133.33-192.33 4.3334-9.0123" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="144.16035715316804" y="-214.8617879859122" dominant-baseline="central" font-size="10" text-anchor="middle">2037</text>
+   <path d="m88.13-200.51 2.2087-9.753" fill="none" stroke="#000" stroke-width="1px"/>
+   <text x="93.65207805059768" y="-224.89522862054505" dominant-baseline="central" font-size="10" text-anchor="middle">2038</text>
+   <path d="m273.48-104.62a300 200-9.43 0 0-570.83 121.14l29.927-2.0927a270 170-9.43 0 1 513.28-107.33z" fill="blue" opacity=".3"/>
+   <text transform="rotate(-4 -241.98 12.652)" x="-241.97905608301622" y="12.652094645036035" dominant-baseline="central" fill="blue" font-size="10" text-anchor="middle">Cassini</text>
+   <path d="m-90.429 200.23a300 200-9.43 0 0 386.77-207.61l-30-5e-15a270 170-9.43 0 1-340.43 182.45z" fill="green" opacity=".3"/>
+   <path d="m232.84-146.82a300 200-9.43 0 0-147.33-53.994l-6.2374 29.344a270 170-9.43 0 1 129.46 42.495z" fill="orange" opacity=".3"/>
+   <text transform="rotate(-78 73.97 -146.53)" x="73.97006281837524" y="-146.52726158784387" dominant-baseline="central" fill="orange" font-size="10" text-anchor="middle"/>
+   <g fill="red">
+    <path d="m64.909-202.58a300 200-9.43 0 0-3.4219-0.19108l-2.6147 29.886a270 170-9.43 0 1 2.9008 0.1409z" opacity=".8"/>
+    <text transform="rotate(-85 56.65 -147.48)" x="56.649751944387575" y="-147.48088273996692" dominant-baseline="central" font-size="10" text-anchor="middle">Pioneer 11</text>
+    <path d="m16.937-202.73a300 200-9.43 0 0-3.4549 0.19533l4.693 29.631a270 170-9.43 0 1 2.937-0.11794z" opacity=".8"/>
+    <text transform="rotate(81 22.164 -147.71)" x="22.16408091218549" y="-147.71379451716092" dominant-baseline="central" font-size="10" text-anchor="middle">Voyager 1</text>
+    <path d="m-18.032-199.49a300 200-9.43 0 0-3.5615 0.48539l9.767 28.366a270 170-9.43 0 1 3.065-0.31925z" opacity=".8"/>
+    <text transform="rotate(71 -3.5248 -146.53)" x="-3.524772203714674" y="-146.53301289497546" dominant-baseline="central" font-size="10" text-anchor="middle">Voyager 2</text>
+   </g>
+   <g fill="purple">
+    <path d="m-3.9104 201.85a300 200-9.43 0 0 3.9031-0.3384l6.2374-29.344a270 170-9.43 0 1-3.3919 0.45173z" opacity=".8"/>
+    <text transform="rotate(-78 11.532 147.22)" x="11.531789471309278" y="147.2217191846084" dominant-baseline="central" font-size="10" text-anchor="middle">HST</text>
+    <path d="m165.01 152.69a300 200-9.43 0 0 3.1083-1.703l-18.47-23.64a270 170-9.43 0 1-2.6929 1.3843z" opacity=".8"/>
+    <text transform="rotate(52 133.95 107.26)" x="133.9495374667975" y="107.25564489879609" dominant-baseline="central" font-size="10" text-anchor="middle">CFHT</text>
+    <path d="m280.14 42.738a300 200-9.43 0 0 1.9265-3.9106l-29.449-5.7243a270 170-9.43 0 1-1.8221 3.3975z" opacity=".8"/>
+    <text transform="rotate(11 227.59 28.237)" x="227.58967365360976" y="28.237128403137547" dominant-baseline="central" font-size="10" text-anchor="middle">Gemini</text>
+    <path d="m296.9-11.78a300 200-9.43 0 0 0.42194-4.4249l-29.982 1.047a270 170-9.43 0 1-0.43565 3.9015z" opacity=".8"/>
+    <text transform="rotate(-2 241.85 -14.268)" x="241.85275320306715" y="-14.268398037201768" dominant-baseline="central" font-size="10" text-anchor="middle">VLT</text>
+    <path d="m284.5-85.388a300 200-9.43 0 0-1.9718-3.981l-28.366 9.767a270 170-9.43 0 1 1.8056 3.4845z" opacity=".8"/>
+    <text transform="rotate(-19 230.05 -71.3)" x="230.05079036499808" y="-71.30039789809243" dominant-baseline="central" font-size="10" text-anchor="middle">VLT</text>
+   </g>
+   <path d="m253.95-128.36a300 200-9.43 0 0-3.0962-3.0663l-25.715 15.451a270 170-9.43 0 1 2.8304 2.6152z" fill="blue" opacity=".8"/>
+   <text transform="rotate(-31 203.28 -102.84)" x="203.2776759398106" y="-102.84112279752297" dominant-baseline="central" fill="blue" font-size="10" text-anchor="middle">Huygens</text>
+   <path d="m234.54-145.52a300 200-9.43 0 0-3.3979-2.5756l-23.959 18.054a270 170-9.43 0 1 3.0865 2.1547z" fill="orange" opacity=".8"/>
+   <text transform="rotate(-37 186.82 -114.7)" x="186.81612330358107" y="-114.69726849748614" dominant-baseline="central" fill="orange" font-size="10" text-anchor="middle">Dragonfly</text>
+   <g fill="green">
+    <path d="m-71.728 202.11a300 200-9.43 0 0 4.5617 0.32467l14.084-26.488a270 170-9.43 0 1-4.1015-0.074831z" opacity=".8"/>
+    <text transform="rotate(-62 -41.11 153.43)" x="-41.11029862965661" y="153.4333216215424" dominant-baseline="central" font-size="10" text-anchor="middle">JWST</text>
+    <path d="m202 129.63a300 200-9.43 0 0 3.042-2.2052l-22.981-19.284a270 170-9.43 0 1-2.702 1.807z" opacity=".8"/>
+    <text transform="rotate(40 162.53 91.753)" x="162.52524485326876" y="91.75273919451024" dominant-baseline="central" font-size="10" text-anchor="middle">ELT</text>
+    <path d="m234.77 102.54a300 200-9.43 0 0 2.8721-2.7946l-26.239-14.544a270 170-9.43 0 1-2.6142 2.3388z" opacity=".8"/>
+    <text transform="rotate(29 189.1 72.841)" x="189.10122346896537" y="72.84077890753859" dominant-baseline="central" font-size="10" text-anchor="middle">GMT</text>
+   </g>
+   <g font-size="10" text-anchor="middle">
+    <text transform="rotate(-9 -163.73 18.182)" x="-163.73374327498152" y="18.181702000300582" dominant-baseline="central">10 AU</text>
+    <text transform="rotate(-9 -160.15 37.972)" x="-160.1458376990554" y="37.97201033376688" dominant-baseline="central">Aphelion</text>
+    <text transform="rotate(-9 -155.32 49.894)" x="-155.32183433655598" y="49.89407690924989" dominant-baseline="central">1988-09 | 2018-04</text>
+    <text transform="rotate(-9 148.71 -16.5)" x="148.71167966250448" y="-16.499711573578107" dominant-baseline="central">9 AU</text>
+    <text transform="rotate(-9 142.46 -41.139)" x="142.45513406380024" y="-41.1387946293592" dominant-baseline="central">Perihelion</text>
+    <text transform="rotate(-9 146.52 -30.952)" x="146.5220982497437" y="-30.951528617433752" dominant-baseline="central">2003-08 | 2032-12</text>
+   </g>
+   <g text-anchor="middle">
+    <text transform="rotate(0 44.392 -271.65)" x="44.391892909493116" y="-271.65069149344885" dominant-baseline="central" font-size="12">Vernal</text>
+    <text transform="rotate(0 44.392 -257.08)" x="44.391892909493116" y="-257.0841997572645" dominant-baseline="central" font-size="12">Equinox</text>
+    <text transform="rotate(90 38.657 -89.388)" x="38.65685905141189" y="-89.3877180266103" dominant-baseline="central" font-size="10">1980-03 | 2009-08 | 2039-01</text>
+    <text transform="rotate(0 -338.3 -14.053)" x="-338.2991464949983" y="-14.052809791500287" dominant-baseline="central" font-size="12">Summer</text>
+    <text transform="rotate(0 -338.79 -.68441)" x="-338.79242394999636" y="-0.6844057209907071" dominant-baseline="central" font-size="12">Solstice</text>
+    <text transform="rotate(0 -100.87 -12.445)" x="-100.8657145661654" y="-12.44542027882804" dominant-baseline="central" font-size="10">1987-12 | 2017-05 | 2046-10</text>
+    <text transform="rotate(0 44.392 242.87)" x="44.39189290949309" y="242.8690487154734" dominant-baseline="central" font-size="12">Autumnal</text>
+    <text transform="rotate(0 44.392 256.88)" x="44.39189290949308" y="256.8825985632098" dominant-baseline="central" font-size="12">Equinox</text>
+    <text transform="rotate(90 37.416 92.389)" x="37.4158777664703" y="92.38875151088963" dominant-baseline="central" font-size="10">1995-11 | 2025-05</text>
+    <text transform="rotate(0 357.82 -12.844)" x="357.8169601659475" y="-12.843767750340035" dominant-baseline="central" font-size="12">Winter</text>
+    <text transform="rotate(0 356.26 -1.9292)" x="356.2626313075644" y="-1.9291888632982914" dominant-baseline="central" font-size="12">Solstice</text>
+   </g>
+   <g font-size="10" text-anchor="middle">
+    <text transform="rotate(0 191.15 .31824)" x="191.14786961506942" y="0.3182419844051374" dominant-baseline="central">2002-11 | 2032-04</text>
+    <text transform="rotate(0 117.99 -95.084)" x="117.99030507942993" y="-95.08408496399935" dominant-baseline="central">Northern</text>
+    <text transform="rotate(0 118.54 -81.524)" x="118.54300963323621" y="-81.52402957499083" dominant-baseline="central">Winter</text>
+    <text transform="rotate(0 -28.674 -94.449)" x="-28.673687534756475" y="-94.44908084066348" dominant-baseline="central">Northern</text>
+    <text transform="rotate(0 -27.308 -79.073)" x="-27.30823243706586" y="-79.07303819780677" dominant-baseline="central">Spring</text>
+    <text transform="rotate(0 -20.932 70.478)" x="-20.932450833764385" y="70.47760848863842" dominant-baseline="central">Northern</text>
+    <text transform="rotate(0 -24.138 86.951)" x="-24.138484121913542" y="86.95105909785329" dominant-baseline="central">Summer</text>
+    <text transform="rotate(0 110.44 71.339)" x="110.43878637937377" y="71.33870972116958" dominant-baseline="central">Northern</text>
+    <text transform="rotate(0 108.8 88.118)" x="108.80147360499762" y="88.1182174861789" dominant-baseline="central">Autumn</text>
+    <text transform="rotate(0 44.392 216.84)" x="44.39189290949309" y="216.84388471253442" dominant-baseline="central">|</text>
+    <text transform="rotate(0 64.384 221.14)" x="64.38378952999578" y="221.13551115249598" dominant-baseline="central">26.73°</text>
+   </g>
+  </g>
+  <line x1="44.392" x2="44.392" y1="195.21" y2="-203.3" stroke="#000" stroke-dasharray="1px, 10px" stroke-width="1px"/>
+  <line x1="296.34" x2="-293.45" y1="-7.3729" y2="-7.3729" stroke="#000" stroke-dasharray="1px, 10px" stroke-width="1px"/>
+  <g stroke="gray">
+   <path class="Titan" d="m44.392-7.3729v-195.93"/>
+   <path class="Titan" d="m44.392-7.3729-337.85-2e-14"/>
+   <path class="Titan" d="m44.392-7.3729v202.58"/>
+   <path class="Titan" d="m44.392-7.3729 251.95 4.6e-14"/>
+  </g>
+  <g id="orbit" transform="rotate(-9.43)" stroke="#000" stroke-width="1px">
+   <ellipse rx="300" ry="200" fill="none" stroke-dasharray="1px, 3px"/>
+   <line x1="300" x2="-300" stroke-dasharray="2px, 5px"/>
+  </g>
+  <circle id="Sun" cx="44.392" cy="-7.3729" r="25" fill="#ff0"/>
+  <g class="Titan" transform="translate(44.392 -203.3)">
+   <text x="15" y="-30" font-size="12" text-anchor="middle">N</text>
+   <text x="-15" y="37.5" font-size="12" text-anchor="middle">S</text>
+   <line transform="rotate(26.73)" y1="30" y2="-30" fill="none" stroke="#000" stroke-width="1px"/>
+   <circle r="15" fill="gold"/>
+   <path class="shadow" d="m0 15a15 15 0 1 1 0-30 15 15 0 0 0 0 30" fill="dimgray"/>
+   <path transform="rotate(26.73)" d="m15 0a15 4.5 0 0 1-30 0" fill="none" stroke="#000" stroke-width="1px"/>
+  </g>
+  <g class="Titan" transform="translate(-293.45 -7.3729)">
+   <text x="15" y="-30" font-size="12" text-anchor="middle">N</text>
+   <text x="-15" y="37.5" font-size="12" text-anchor="middle">S</text>
+   <line transform="rotate(26.73)" y1="30" y2="-30" fill="none" stroke="#000" stroke-width="1px"/>
+   <circle r="15" fill="gold"/>
+   <path class="shadow" d="m0 15a15 15 0 1 1 0-30 9.1849e-16 15 0 1 0 0 30" fill="dimgray"/>
+   <path transform="rotate(26.73)" d="m15 0a15 4.5 0 0 1-30 0" fill="none" stroke="#000" stroke-width="1px"/>
+  </g>
+  <g class="Titan" transform="translate(44.392 195.21)">
+   <text x="15" y="-30" font-size="12" text-anchor="middle">N</text>
+   <text x="-15" y="37.5" font-size="12" text-anchor="middle">S</text>
+   <line transform="rotate(26.73)" y1="30" y2="-30" fill="none" stroke="#000" stroke-width="1px"/>
+   <circle r="15" fill="gold"/>
+   <path class="shadow" d="m0 15a15 15 0 1 1 0-30 15 15 0 0 1 0 30" fill="dimgray"/>
+   <path transform="rotate(26.73)" d="m15 0a15 4.5 0 0 1-30 0" fill="none" stroke="#000" stroke-width="1px"/>
+  </g>
+  <g class="Titan" transform="translate(296.34 -7.3729)">
+   <text x="15" y="-30" font-size="12" text-anchor="middle">N</text>
+   <text x="-15" y="37.5" font-size="12" text-anchor="middle">S</text>
+   <line transform="rotate(26.73)" y1="30" y2="-30" fill="none" stroke="#000" stroke-width="1px"/>
+   <circle r="15" fill="gold"/>
+   <path class="shadow" d="m0 15a15 15 0 0 0 0-30 2.7555e-15 15 0 1 0 0 30" fill="dimgray"/>
+   <path transform="rotate(26.73)" d="m15 0a15 4.5 0 0 1-30 0" fill="none" stroke="#000" stroke-width="1px"/>
+  </g>
  </g>
- <g fill="#008000">
-  <path d="m304.49 479.14a200 300 80.57 0 0 4.5617 0.32466l14.084-26.488a170 270 80.57 0 1-4.1015-0.0748z" opacity=".8"/>
-  <text transform="rotate(-62)" x="-222.74861" y="497.97171" dominant-baseline="central" font-size="10px" text-anchor="middle">JWST</text>
-  <path d="m417.06 472.91a200 300 80.57 0 0 3.5478-0.67064v-30a170 270 80.57 0 1-3.0242 0.67521z" opacity=".8"/>
-  <text transform="rotate(90)" x="416.73526" y="-420.61096" dominant-baseline="central" font-size="10px" text-anchor="middle"/>
- </g>
- <path d="m578.22 406.66a200 300 80.57 0 0 3.042-2.2052l-22.981-19.284a170 270 80.57 0 1-2.702 1.807z" fill="#800080" opacity=".8"/>
- <g font-size="10px" text-anchor="middle">
-  <text transform="rotate(40)" x="649.74823" y="-63.797615" dominant-baseline="central" fill="#800080">ELT</text>
-  <text transform="rotate(-9)" x="163.68871" y="324.81284" dominant-baseline="central">10 AU</text>
-  <text transform="rotate(-9)" x="164.13655" y="344.92075" dominant-baseline="central">Aphelion</text>
-  <text transform="rotate(-9)" x="167.03615" y="357.45068" dominant-baseline="central">1988-09 | 2018-04</text>
-  <text transform="rotate(-9)" x="477.71277" y="339.43564" dominant-baseline="central">9 AU</text>
-  <text transform="rotate(-9)" x="475.38766" y="314.12115" dominant-baseline="central">Perihelion</text>
-  <text transform="rotate(-9)" x="477.81091" y="324.81921" dominant-baseline="central">2003-08 | 2032-12</text>
- </g>
- <g text-anchor="middle">
-  <text x="420.61099" y="5.3748779" dominant-baseline="central" font-family="Montserrat" font-size="12px">Vernal</text>
-  <text x="420.61099" y="19.941376" dominant-baseline="central" font-family="Montserrat" font-size="12px">Equinox</text>
-  <text transform="rotate(90)" x="187.63786" y="-414.87595" dominant-baseline="central" font-size="10px">1980-03 | 2009-08 | 2039-01</text>
-  <text x="25.919964" y="262.97278" dominant-baseline="central" font-size="12px"><tspan font-family="Montserrat">Summer</tspan></text>
-  <text x="25.426678" y="280.34119" dominant-baseline="central" font-family="Montserrat" font-size="12px">Solstice</text>
-  <text x="275.35336" y="264.58017" dominant-baseline="central" font-size="10px">1987-12 | 2017-05 | 2046-10</text>
-  <text x="420.61099" y="519.89459" dominant-baseline="central" font-family="Montserrat" font-size="12px">Autumnal</text>
-  <text x="420.61099" y="533.90814" dominant-baseline="central" font-family="Montserrat" font-size="12px">Equinox</text>
-  <text transform="rotate(90)" x="369.41434" y="-413.63498" dominant-baseline="central" font-size="10px">1995-11 | 2025-05</text>
-  <text x="744.03601" y="264.18182" dominant-baseline="central" font-family="Montserrat" font-size="12px">Winter</text>
-  <text x="742.48169" y="279.09637" dominant-baseline="central" font-family="Montserrat" font-size="12px">Solstice</text>
- </g>
- <g font-size="10px" text-anchor="middle">
-  <text x="567.36694" y="277.34381" dominant-baseline="central">2002-11 | 2032-04</text>
-  <text x="494.20938" y="181.9415" dominant-baseline="central">Northern</text>
-  <text x="494.76208" y="195.50154" dominant-baseline="central">Winter</text>
-  <text x="347.54541" y="182.57649" dominant-baseline="central">Northern</text>
-  <text x="348.91086" y="197.95255" dominant-baseline="central">Spring</text>
-  <text x="346.37878" y="358.11917" dominant-baseline="central">Northern</text>
-  <text x="344.17325" y="374.86017" dominant-baseline="central">Summer</text>
-  <text x="493.99643" y="357.11002" dominant-baseline="central">Northern</text>
-  <text x="491.21381" y="374.32562" dominant-baseline="central">Autumn</text>
-  <text x="420.61099" y="493.86948" dominant-baseline="central">|</text>
-  <text x="436.60287" y="506.1611" dominant-baseline="central">26.73°</text>
- </g>
- <line x1="420.61" x2="420.61" y1="472.24" y2="73.723" stroke="#000" stroke-dasharray="1px, 10px" stroke-width="1px"/>
- <line x1="672.56" x2="82.764" y1="269.65" y2="269.65" stroke="#000" stroke-dasharray="1px, 10px" stroke-width="1px"/>
- <g stroke="#808080">
-  <path class="Titan" d="m420.61 269.65v-195.93"/>
-  <path class="Titan" d="m420.61 269.65h-337.85"/>
-  <path class="Titan" d="m420.61 269.65v202.58"/>
-  <path class="Titan" d="m420.61 269.65h251.95"/>
- </g>
- <ellipse transform="rotate(-9.43)" cx="325.75" cy="334.92" rx="300" ry="200" fill="none" stroke="#000" stroke-dasharray="1px, 3px" stroke-width="1px"/>
- <line x1="672.16" x2="80.273" y1="227.87" y2="326.18" stroke="#000" stroke-dasharray="2px, 5px" stroke-width="1px"/>
- <circle id="Sun" cx="420.61" cy="269.65" r="25" fill="#ff0"/>
- <text x="435.61099" y="43.722977" font-size="12px" text-anchor="middle">N</text>
- <text x="405.61099" y="111.22298" font-size="12px" text-anchor="middle">S</text>
- <line x1="407.12" x2="434.1" y1="100.52" y2="46.929" fill="none" stroke="#000" stroke-width="1px"/>
- <circle cx="420.61" cy="73.723" r="15" fill="#ffd700"/>
- <path class="shadow" d="m420.61 88.723a15 15 0 1 1 0-30 15 15 0 0 0 0 30" fill="#696969"/>
- <path d="m434.01 80.47a15 4.5 26.73 0 1-26.794-13.494" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="97.764473" y="239.65266" font-size="12px" text-anchor="middle">N</text>
- <text x="67.764473" y="307.15268" font-size="12px" text-anchor="middle">S</text>
- <line x1="69.271" x2="96.258" y1="296.45" y2="242.86" fill="none" stroke="#000" stroke-width="1px"/>
- <circle cx="82.764" cy="269.65" r="15" fill="#ffd700"/>
- <path class="shadow" d="m82.764 284.65a15 15 0 1 1 0-30 0 0 0 0 0 0 30" fill="#696969"/>
- <path d="m96.162 276.4a15 4.5 26.73 0 1-26.794-13.494" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="435.61099" y="442.23526" font-size="12px" text-anchor="middle">N</text>
- <text x="405.61099" y="509.73526" font-size="12px" text-anchor="middle">S</text>
- <line x1="407.12" x2="434.1" y1="499.03" y2="445.44" fill="none" stroke="#000" stroke-width="1px"/>
- <circle cx="420.61" cy="472.24" r="15" fill="#ffd700"/>
- <path class="shadow" d="m420.61 487.24a15 15 0 1 1 0-30 15 15 0 0 1 0 30" fill="#696969"/>
- <path d="m434.01 478.98a15 4.5 26.73 0 1-26.794-13.494" fill="none" stroke="#000" stroke-width="1px"/>
- <text x="687.55615" y="239.65266" font-size="12px" text-anchor="middle">N</text>
- <text x="657.55615" y="307.15268" font-size="12px" text-anchor="middle">S</text>
- <line x1="659.06" x2="686.05" y1="296.45" y2="242.86" fill="none" stroke="#000" stroke-width="1px"/>
- <circle cx="672.56" cy="269.65" r="15" fill="#ffd700"/>
- <path class="shadow" d="m672.56 284.65a15 15 0 0 0 0-30 0 0 0 0 0 0 30" fill="#696969"/>
- <path d="m685.95 276.4a15 4.5 26.73 0 1-26.794-13.494" fill="none" stroke="#000" stroke-width="1px"/>
 </svg>

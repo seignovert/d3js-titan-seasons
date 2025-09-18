@@ -124,6 +124,12 @@ SVG = class SVG {
     return this.sun.coverage(first.Ls, last.Ls, first.color);
   }
 
+  addDragonfly(addDragonfly) {
+    var first, last;
+    [first] = addDragonfly, [last] = slice.call(addDragonfly, -1);
+    return this.sun.coverage(first.Ls, last.Ls, first.color, first.name);
+  }
+
   addLegend(legend) {
     var i, leg, len, results;
     results = [];
