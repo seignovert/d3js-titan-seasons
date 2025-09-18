@@ -1,6 +1,8 @@
 Titan orbit
 ===========
 
+[![DOI](https://zenodo.org/badge/120357917.svg)](https://zenodo.org/badge/latestdoi/120357917)
+
 ![Titan orbit](Titan_seasons.png)
 
 Infos
